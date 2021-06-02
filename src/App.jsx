@@ -1,9 +1,11 @@
-import Sprite from "./components/sprite";
+import Player from "./components/player";
 
 const App = () => {
+  
+
   return (
     <div className="zone-container">
-      <Sprite />
+      <Player skin='m1'/>
     </div>
   );
 }
