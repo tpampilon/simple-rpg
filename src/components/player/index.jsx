@@ -13,8 +13,7 @@ const Player = ({skin}) => {
 
   useKeyPress((event) => {
     event.preventDefault();
-    const dir = event.key.replace("Arrow", "").toLowerCase();
-    walk(dir)
+    walk(event.key.replace("Arrow", "").toLowerCase());
   })
 
   return (
