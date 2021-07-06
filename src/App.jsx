@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div className="zone-container">
-      <Player skin='m2'/>
+      <Player skin='f2'/>
     </div>
   );
 }
